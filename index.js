@@ -12,8 +12,8 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const uri = "mongodb+srv://event_horizon:0lvvrMejiTM1SNFp@cluster0.fytnz4n.mongodb.net/?retryWrites=true&w=majority";
-// const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.j9nln.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const uri = "mongodb+srv://sk215373012:8dKhQirZQ0FwcKcf@cluster0.fytnz4n.mongodb.net/?retryWrites=true&w=majority";
+
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 
