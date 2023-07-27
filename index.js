@@ -3,7 +3,6 @@ const app = express();
 const cors = require('cors');
 require('dotenv').config();
 const { MongoClient } = require('mongodb');
-const SSLCommerzPayment = require('sslcommerz');
 const { v4: uuidv4 } = require('uuid');
 
 const port = process.env.PORT || 5000;
