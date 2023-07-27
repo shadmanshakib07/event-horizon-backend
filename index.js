@@ -66,7 +66,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('Event Horizon server is running')
+    res.send('Event Horizon server is running -_-' )
 })
 
 app.listen(port, () => {
